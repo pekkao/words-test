@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
 
-  const [words, setWords] = useState([null, "First", "Second"]);
+  const [words, setWords] = useState([null, "First", "Second", "Third"]);
   const [wordIndex, setWordIndex] = useState(1);
   const [counter, setCounter] = useState(10);
 
